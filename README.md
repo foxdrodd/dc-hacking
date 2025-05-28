@@ -14,6 +14,10 @@ Many great articles of technical details of the Dreamcast, like howto burn boota
 
 [Dreamcast Linux tools bootdreams (Forum Post)](https://www.dreamcast-talk.com/forum/viewtopic.php?t=15258)
 
+[Dreamcast 32MB RAM upgrade](https://blog.ldtlb.com/2020/06/21/dreamcast-32mb-ram-upgrade.html)
+
+"This article describes how to upgrade a Dreamcast from 16MB to 32MB of system SDRAM. I have done this exactly once, so this is still rather experimental. Please only attempt this with a spare Dreamcast you don’t mind destroying."
+
 ## YouTube
 
 [X.org server on NetBSD/dreamcast 9.1](https://www.youtube.com/watch?v=ToVdC8B4waY&ab_channel=tsutsuii)
