@@ -11,12 +11,15 @@ Many great articles of technical details of the Dreamcast, like howto burn boota
 
 [Dusting off Dreamcast Linux (Blog)](https://oldvcr.blogspot.com/2023/02/dusting-off-dreamcast-linux.html)
 
-
-[Dusted-off Dreamcast Linux booting through GDEMU (YouTube)](https://www.youtube.com/watch?v=ygdGxo6wXM4)
-
 [Dreamcast Linux tools bootdreams (Forum Post)](https://www.dreamcast-talk.com/forum/viewtopic.php?t=15258)
 
+## YouTube
 
+[X.org server on NetBSD/dreamcast 9.1](https://www.youtube.com/watch?v=ToVdC8B4waY&ab_channel=tsutsuii)
+
+[NetBSD/dreamcast "root on GD-ROM" Boot CD Demonstration](https://www.youtube.com/watch?v=VJUbAvCg5NY&ab_channel=tsutsuii)
+
+[Dusted-off Dreamcast Linux booting through GDEMU (YouTube)](https://www.youtube.com/watch?v=ygdGxo6wXM4)
 ## github
 
 [Dreamcast Linux, dusted off](https://github.com/classilla/dclinux)
