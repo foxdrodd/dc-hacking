@@ -8,6 +8,7 @@ Collection of some Dreamcast hacking information with other OSs like Linux, NetB
 
 Many great articles of technical details of the Dreamcast, like howto burn bootable CD-Rs, format of Bootloaders, System calls.
 
+[Dreamcast Wiki](https://dreamcast.wiki/Dreamcast.wiki)
 
 [Dusting off Dreamcast Linux (Blog)](https://oldvcr.blogspot.com/2023/02/dusting-off-dreamcast-linux.html)
 
