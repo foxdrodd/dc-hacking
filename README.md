@@ -1,6 +1,6 @@
 # Dreamcast Hacking
 
-Collection of some Dremcast hacking information with other OSs like Linux, NetBSD.
+Collection of some Dreamcast hacking information with other OSs like Linux, NetBSD.
 
 # Information sources
 
@@ -50,7 +50,7 @@ NetBSD officially supports Dreamcast, at least to the point, that it works in an
 
 The creation of a Live-CD to boot on the Dreamcast works flawless.
 
-Fromt NetBSD, install `dc-tools` from pkgsrc.
+From NetBSD, install `dc-tools` from pkgsrc.
 
 Create Live-CD with base system, create data.raw to boot.
 
