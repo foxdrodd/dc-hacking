@@ -79,3 +79,12 @@ dd if=/dev/zero bs=2352 count=300 of=audio.raw
 wodim dev=/dev/sr0 -v -multi -audio audio.raw
 wodim dev=/dev/sr0 -v -multi -xa std-live.raw 
 ```
+
+---
+
+Alternatively, the data.raw from dc-burn-netbsd can be converted to cdi format and put on gdemu to boot. For this you need the tool cdi4dc from [img4dc](https://github.com/Kazade/img4dc).
+
+```
+cdi4dc data.raw output-for-gdemu.cdi
+```
+The resulting file can be put on gdemu and be booted.
