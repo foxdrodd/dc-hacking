@@ -18,6 +18,8 @@ Many great articles of technical details of the Dreamcast, like howto burn boota
 
 "This article describes how to upgrade a Dreamcast from 16MB to 32MB of system SDRAM. I have done this exactly once, so this is still rather experimental. Please only attempt this with a spare Dreamcast you don’t mind destroying."
 
+[Calibrate Laser of GDROM Drive](https://www.reddit.com/r/dreamcast/comments/45rto2/help_needed_measuring_potentiometer_resistance/)
+
 ## YouTube
 
 [X.org server on NetBSD/dreamcast 9.1](https://www.youtube.com/watch?v=ToVdC8B4waY&ab_channel=tsutsuii)
