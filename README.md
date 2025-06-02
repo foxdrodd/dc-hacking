@@ -69,7 +69,7 @@ gxemul -XEdreamcast -dco23965696:data.raw
 
 # NetBSD
 
-NetBSD officially supports Dreamcast.
+NetBSD officially supports Dreamcast and it really works, supports many features and peripherals.
 
 [NetBSD on Dreamcast](https://wiki.netbsd.org/ports/dreamcast/)
 
