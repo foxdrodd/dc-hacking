@@ -12,10 +12,6 @@ Many great articles of technical details of the Dreamcast, like howto burn boota
 
 [Dreamcast Wiki](https://dreamcast.wiki/Dreamcast.wiki)
 
-[Dusting off Dreamcast Linux (Blog)](https://oldvcr.blogspot.com/2023/02/dusting-off-dreamcast-linux.html)
-
-[Dreamcast Linux tools bootdreams (Forum Post)](https://www.dreamcast-talk.com/forum/viewtopic.php?t=15258)
-
 [Dreamcast 32MB RAM upgrade](https://blog.ldtlb.com/2020/06/21/dreamcast-32mb-ram-upgrade.html)
 
 "This article describes how to upgrade a Dreamcast from 16MB to 32MB of system SDRAM. I have done this exactly once, so this is still rather experimental. Please only attempt this with a spare Dreamcast you don’t mind destroying."
@@ -29,12 +25,37 @@ Many great articles of technical details of the Dreamcast, like howto burn boota
 
 [NetBSD/dreamcast "root on GD-ROM" Boot CD Demonstration](https://www.youtube.com/watch?v=VJUbAvCg5NY&ab_channel=tsutsuii)
 
-[Dusted-off Dreamcast Linux booting through GDEMU (YouTube)](https://www.youtube.com/watch?v=ygdGxo6wXM4)
 ## github
+
+[Slightly patched version of img4dc tools](https://github.com/Kazade/img4dc)
+
+img4dc converts ISO files to CDI, that can be used on a gdemu
+
+[KallistiOS](https://github.com/KallistiOS/KallistiOS)
+
+Development environment and tools for homebrew dc
+
+[Sega Dreamcast experiments](https://github.com/buhman/dreamcast)
+
+Many code examples to be used with dc
+
+## Linux on Dreamcast
 
 [Dreamcast Linux, dusted off](https://github.com/classilla/dclinux)
 
-[Slightly patched version of img4dc tools](https://github.com/Kazade/img4dc)
+[Dusting off Dreamcast Linux (Blog)](https://oldvcr.blogspot.com/2023/02/dusting-off-dreamcast-linux.html)
+
+[Dreamcast Linux tools bootdreams (Forum Post)](https://www.dreamcast-talk.com/forum/viewtopic.php?t=15258)
+
+[Working dreamcast-linux](http://www.lxdream.org/files/)
+
+Old Files from 2001 that contain a working dreamcast-linux
+
+[Dreamcast Linux Docker Build](https://github.com/andersevenrud/dreamcast-linux)
+
+Nice Docker Container that cross-compiles a dreamcast linux kernel, uses sh-boot loader (currently, doesnt boot for me and needs some customization eg CONFIG_SH_DREAMCAST)
+
+[Dusted-off Dreamcast Linux booting through GDEMU (YouTube)](https://www.youtube.com/watch?v=ygdGxo6wXM4)
 
 ## Emulators
 
