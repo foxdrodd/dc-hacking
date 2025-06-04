@@ -6,14 +6,14 @@
 
 ```
 / # uname -a
-Linux (none) 6.14.10 #1 PREEMPT Wed Jun  4 15:43:25 UTC 2025 sh4 GNU/Linux
+Linux (none) 6.15.1 #2 PREEMPT Wed Jun  4 16:47:09 UTC 2025 sh4 GNU/Linux
 ```
 
 ## dmesg
 
 ```
 / # dmesg
-Linux version 6.14.10 (root@6273c09738d6) (sh4-linux-gcc (GCC) 8.3.0, GNU ld (GNU Binutils) 2.32) #1 PREEMPT Wed Jun  4 15:43:25 UTC 2025
+Linux version 6.15.1 (root@c4c205c5f218) (sh4-linux-gcc (GCC) 8.3.0, GNU ld (GNU Binutils) 2.32) #2 PREEMPT Wed Jun  4 16:47:09 UTC 2025
 Boot params:
 ... MOUNT_ROOT_RDONLY - 00000000
 ... RAMDISK_FLAGS     - 00000000
@@ -48,9 +48,9 @@ virtual kernel memory layout:
     vmalloc : 0xc0000000 - 0xdfff5000   ( 511 MB)
     lowmem  : 0x8c000000 - 0x8d000000   (  16 MB) (cached)
             : 0xa0000000 - 0xc0000000   ( 512 MB) (uncached)
-      .init : 0x8c495000 - 0x8c5be000   (1188 kB)
-      .data : 0x8c390468 - 0x8c494c0c   (1041 kB)
-      .text : 0x8c001000 - 0x8c390468   (3645 kB)
+      .init : 0x8c4a1000 - 0x8c5cb000   (1192 kB)
+      .data : 0x8c398844 - 0x8c4a020c   (1054 kB)
+      .text : 0x8c001000 - 0x8c398844   (3678 kB)
 SLUB: HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
 rcu: Preemptible hierarchical RCU implementation.
 rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
@@ -72,13 +72,15 @@ Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes, linear)
 Performance Events: sh7750 support registered
 rcu: Hierarchical SRCU implementation.
 rcu:    Max phase no-delay instances is 1000.
-Memory: 9700K/16384K available (3641K kernel code, 189K rwdata, 848K rodata, 1188K init, 125K bss, 6192K reserved, 0K cma-reserved)
+Memory: 9656K/16384K available (3674K kernel code, 194K rwdata, 856K rodata, 1192K init, 119K bss, 6236K reserved, 0K cma-reserved)
 devtmpfs: initialized
 clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+posixtimers hash table entries: 512 (order: -1, 2048 bytes, linear)
 futex hash table entries: 256 (order: -1, 3072 bytes, linear)
 NET: Registered PF_NETLINK/PF_ROUTE protocol family
 DMA: preallocated 128 KiB GFP_KERNEL pool for atomic allocations
 registering PCI controller with io_map_base unset
+HugeTLB: allocation took 0ms with hugepage_allocation_threads=1
 HugeTLB: registered 64.0 KiB page size, pre-allocated 0 pages
 HugeTLB: 0 KiB vmemmap can be freed for a 64.0 KiB page
 pps_core: LinuxPPS API ver. 1 registered
@@ -122,9 +124,9 @@ gdrom: CD-ROM DRIVE     from SE               with firmware 6.42
 gdrom: Registered with major number 254
 cdrom: Uniform CD-ROM driver Revision: 3.20
 rtc-generic rtc-generic: registered as rtc0
-rtc-generic rtc-generic: setting system clock to 1998-10-27T02:00:28 UTC (909453628)
+rtc-generic rtc-generic: setting system clock to 1998-10-27T02:11:32 UTC (909454292)
 NET: Registered PF_PACKET protocol family
-Freeing unused kernel image (initmem) memory: 1188K
+Freeing unused kernel image (initmem) memory: 1192K
 This architecture does not have kernel memory protection.
 Run /init as init process
   with arguments:
@@ -132,5 +134,5 @@ Run /init as init process
   with environment:
     HOME=/
     TERM=linux
-/ # 
+
 ```
