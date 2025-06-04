@@ -2,6 +2,8 @@
 
 Collection of some Dreamcast hacking information with other OSs like Linux, NetBSD.
 
+Last tested Linux release on real hardware: **[6.15.1](linux-on-dreamcast/linux-booting-dmesg.md)**
+
 # Information sources
 
 [Rich Knowledge Base of Dreamcast hacking](https://mc.pp.se/dc/sw.html)
