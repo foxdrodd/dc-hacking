@@ -1,0 +1,124 @@
+/ # uname -a
+Linux (none) 6.15.1 #2 PREEMPT Wed Jun  4 16:47:09 UTC 2025 sh4 GNU/Linux
+/ # dmesg
+Linux version 6.15.1 (root@c4c205c5f218) (sh4-linux-gcc (GCC) 8.3.0, GNU ld (GNU Binutils) 2.32) #2 PREEMPT Wed Jun  4 16:47:09 UTC 2025
+Boot params:
+... MOUNT_ROOT_RDONLY - 00000000
+... RAMDISK_FLAGS     - 00000000
+... ORIG_ROOT_DEV     - 00000100
+... LOADER_TYPE       - 00000000
+... INITRD_START      - 00000000
+... INITRD_SIZE       - 00000000
+Booting machvec: Sega Dreamcast
+initrd disabled
+Zone ranges:
+  Normal   [mem 0x000000000c000000-0x000000000cffffff]
+Movable zone start for each node
+Early memory node ranges
+  node   0: [mem 0x000000000c000000-0x000000000cffffff]
+Initmem setup node 0 [mem 0x000000000c000000-0x000000000cffffff]
+pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+pcpu-alloc: [0] 0 
+Kernel command line: console=ttySC1,115200 panic=3 root=/dev/root
+printk: log buffer data + meta data: 16384 + 51200 = 67584 bytes
+Dentry cache hash table entries: 2048 (order: 1, 8192 bytes, linear)
+Inode-cache hash table entries: 1024 (order: 0, 4096 bytes, linear)
+Sorting __ex_table...
+Built 1 zonelists, mobility grouping on.  Total pages: 4096
+mem auto-init: stack:off, heap alloc:off, heap free:off
+PVR=040205c1 CVR=00000000 PRR=00000000
+I-cache : n_ways=1 n_sets=256 way_incr=8192
+I-cache : entry_mask=0x00001fe0 alias_mask=0x00001000 n_aliases=2
+D-cache : n_ways=1 n_sets=512 way_incr=16384
+D-cache : entry_mask=0x00003fe0 alias_mask=0x00003000 n_aliases=4
+virtual kernel memory layout:
+    fixmap  : 0xdfff7000 - 0xdffff000   (  32 kB)
+    vmalloc : 0xc0000000 - 0xdfff5000   ( 511 MB)
+    lowmem  : 0x8c000000 - 0x8d000000   (  16 MB) (cached)
+            : 0xa0000000 - 0xc0000000   ( 512 MB) (uncached)
+      .init : 0x8c4a1000 - 0x8c5cb000   (1192 kB)
+      .data : 0x8c398844 - 0x8c4a020c   (1054 kB)
+      .text : 0x8c001000 - 0x8c398844   (3678 kB)
+SLUB: HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+rcu: Preemptible hierarchical RCU implementation.
+rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+intc: Registered controller 'sh7750' with 20 IRQs
+intc: Registered controller 'sh7750_dma4' with 5 IRQs
+rcu: srcu_init: Setting srcu_struct sizes based on contention.
+Console: colour dummy device 80x25
+ sh-tmu.0: ch0: used for clock events
+ sh-tmu.0: ch0: used for periodic clock events
+ sh-tmu.0: ch1: used as clock source
+clocksource: sh-tmu.0: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 153279423644 ns
+sched_clock: 32 bits at 250 Hz, resolution 4000000ns, wraps every 8589934590000000ns
+Calibrating delay loop (skipped)... 199.50 BogoMIPS PRESET (lpj=399012)
+CPU: SH7750
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 1024 (order: 0, 4096 bytes, linear)
+Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes, linear)
+Performance Events: sh7750 support registered
+rcu: Hierarchical SRCU implementation.
+rcu:    Max phase no-delay instances is 1000.
+Memory: 9656K/16384K available (3674K kernel code, 194K rwdata, 856K rodata, 1192K init, 119K bss, 6236K reserved, 0K cma-reserved)
+devtmpfs: initialized
+clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+posixtimers hash table entries: 512 (order: -1, 2048 bytes, linear)
+futex hash table entries: 256 (order: -1, 3072 bytes, linear)
+NET: Registered PF_NETLINK/PF_ROUTE protocol family
+DMA: preallocated 128 KiB GFP_KERNEL pool for atomic allocations
+registering PCI controller with io_map_base unset
+HugeTLB: allocation took 0ms with hugepage_allocation_threads=1
+HugeTLB: registered 64.0 KiB page size, pre-allocated 0 pages
+HugeTLB: 0 KiB vmemmap can be freed for a 64.0 KiB page
+pps_core: LinuxPPS API ver. 1 registered
+pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+PTP clock support registered
+sh_tmu sh-tmu.0: kept as earlytimer
+PCI host bridge to bus 0000:00
+pci_bus 0000:00: root bus resource [io  0x1001600-0x10035ff]
+pci_bus 0000:00: root bus resource [mem 0x01840000-0x01847fff]
+pci_bus 0000:00: No busn resource found for root bus, will use [bus 00-ff]
+pci 0000:00:00.0: [11db:1234] type 00 class 0x020000 conventional PCI endpoint
+pci 0000:00:00.0: BAR 0 [io  0x2000-0x20ff]
+pci 0000:00:00.0: BAR 1 [mem 0x01000000-0x010000ff]
+PCI: Fixing up device 0000:00:00.0
+pci_bus 0000:00: busn_res: [bus 00-ff] end is updated to 00
+pci 0000:00:00.0: BAR 0 [io  0x1001800-0x10018ff]: assigned
+vgaarb: loaded
+clocksource: Switched to clocksource sh-tmu.0
+ maple: bus core now registered
+NET: Registered PF_UNIX/PF_LOCAL protocol family
+PCI: CLS 0 bytes, default 32
+workingset: timestamp_bits=30 max_order=12 bucket_order=0
+io scheduler mq-deadline registered
+io scheduler kyber registered
+maple (null): detected Dreamcast Controller: function 0x1: at (0, 0)
+maple (null): no driver found
+Console: switching to colour frame buffer device 80x30
+fb0: NEC PowerVR2 (rev 1.1) frame buffer device, using 600k/8192k of video memory
+fb0: Mode 640x480-16 pitch = 1280 cable: VGA video output: VGA
+SuperH (H)SCI(F) driver initialized
+sh-sci.0: ttySC0 at MMIO 0xffe00000 (irq = 39, base_baud = 0) is a sci
+sh-sci.1: ttySC1 at MMIO 0xffe80000 (irq = 56, base_baud = 0) is a scif
+printk: legacy console [ttySC1] enabled
+brd: module loaded
+8139too: 8139too Fast Ethernet driver 0.9.28
+8139too 0000:00:00.0: BAR 1 [mem 0x01001700-0x010018ff]: not claimed; can't enable device
+resource: Trying to free nonexistent resource <0x01001800-0x010018ff>
+resource: Trying to free nonexistent resource <0x01001700-0x010018ff>
+8139too 0000:00:00.0: probe with driver 8139too failed with error -22
+gdrom: CD-ROM DRIVE     from SE               with firmware 6.42            
+gdrom: Registered with major number 254
+cdrom: Uniform CD-ROM driver Revision: 3.20
+rtc-generic rtc-generic: registered as rtc0
+rtc-generic rtc-generic: setting system clock to 1998-10-27T02:11:32 UTC (909454292)
+NET: Registered PF_PACKET protocol family
+Freeing unused kernel image (initmem) memory: 1192K
+This architecture does not have kernel memory protection.
+Run /init as init process
+  with arguments:
+    /init
+  with environment:
+    HOME=/
+    TERM=linux
