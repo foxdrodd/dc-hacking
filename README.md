@@ -29,6 +29,10 @@ Many great articles of technical details of the Dreamcast, like howto burn boota
 
 ## github
 
+[Dreamcast Linux Docker Build](https://github.com/foxdrodd/dreamcast-linux)
+
+Builds Linux distro in docker container with current linux kernel.
+
 [Slightly patched version of img4dc tools](https://github.com/Kazade/img4dc)
 
 img4dc converts ISO files to CDI, that can be used on a gdemu
