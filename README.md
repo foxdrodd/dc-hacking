@@ -2,7 +2,7 @@
 
 Collection of some Dreamcast hacking information with other OSs like Linux, NetBSD.
 
-Last tested Linux release on real hardware: **[dreamcast-linux 6.16.5](https://github.com/foxdrodd/dreamcast-linux)**
+Last tested Linux release on real hardware, see **[dreamcast-linux](https://github.com/foxdrodd/dreamcast-linux)**
 
 # Information sources
 
