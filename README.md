@@ -10,6 +10,10 @@ Last tested Linux release on real hardware, see **[dreamcast-linux](https://gith
 
 Many great articles of technical details of the Dreamcast, like howto burn bootable CD-Rs, format of Bootloaders, System calls.
 
+[Dreamcast official documentation](https://segaretro.org/Dreamcast_official_documentation)
+
+Official Sega documentation about various hardware/software components.
+
 [Dreamcast Architecture | A Practical Analysis](https://classic.copetti.org/writings/consoles/dreamcast/)
 
 [Dreamcast Wiki](https://dreamcast.wiki/Dreamcast.wiki)
