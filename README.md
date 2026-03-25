@@ -25,6 +25,8 @@ Official Sega documentation about various hardware/software components.
 [Calibrate Laser of GDROM Drive](https://www.reddit.com/r/dreamcast/comments/45rto2/help_needed_measuring_potentiometer_resistance/)
 / [Laser Calibration](https://retro-hack.blogspot.com/2010/06/sega-dreamcast-laser-calibration-guide.html)
 
+[Very detailed Doc about the different Dreamcast Model Types](https://drive.google.com/file/d/1Rf7rPnD9UU3iA1-jPKGUjshKlSHEHYvq/view)
+
 ## Communities
 
 [Sega Hub](https://segahub.org/)
