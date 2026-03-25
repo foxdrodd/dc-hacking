@@ -83,7 +83,7 @@ Nice Docker Container that cross-compiles a dreamcast linux kernel, uses sh-boot
 
 [VMUFAT Driver for Linux](https://lkml.org/lkml/2009/2/14/127)
 
-Driver for the Visual Memory Unit of the Dreamcast. This patch was intended for an older linux release, but might be rebased soon. And is a good source of knowledge on [how the VMU works](http://mc.pp.se/dc/vms/flashmem.html). There is also [mkfs.vmufat](https://github.com/mcmenaminadrian/mkfs.vmufat) to create such a filesystem.
+Driver for the Visual Memory Unit of the Dreamcast. This patch was intended for an older linux release, but was rebased by the original Author in https://github.com/mcmenaminadrian/linux/pull/1. And is a good source of knowledge on [how the VMU works](http://mc.pp.se/dc/vms/flashmem.html). There is also [mkfs.vmufat](https://github.com/mcmenaminadrian/mkfs.vmufat) to create such a filesystem.
 
 
 ## Emulators
