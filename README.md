@@ -92,13 +92,14 @@ Driver for the Visual Memory Unit of the Dreamcast. This patch was intended for 
 
 Dreamcast emulator, e.g. boot a ISO:
 
+```
+gxemul -XEdreamcast -dco23965696:build/data.iso -M 16M
+```
+
 [lxdream](https://github.com/lxdream/lxdream)
 
 [Flycast](https://github.com/flyinghead/flycast)
 
-```
-gxemul -XEdreamcast -dco23965696:data.raw 
-```
 
 # NetBSD
 
