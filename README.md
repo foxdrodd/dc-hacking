@@ -90,6 +90,8 @@ Driver for the Visual Memory Unit of the Dreamcast. This patch was intended for 
 
 [GXemul](https://gavare.se/gxemul/)
 
+[Deecy](https://github.com/Senryoku/Deecy)
+
 Dreamcast emulator, e.g. boot a ISO:
 
 ```
